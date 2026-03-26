@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f0f18;
+  --card: #1c1c2e;
+  --primary: #FF6B9D;
+  --text: #e2e2f0;
+  --muted: #6b6b8a;
+  --border: #2a2a40;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  min-height: 100dvh;
+}
+
+input, textarea, select {
+  font-size: 16px !important;
+}
